@@ -32,7 +32,7 @@ cd flutter-maha
 
 flutter pub get
 
-1. Run the app:
+3. Run the app:
 
 flutter run
 
