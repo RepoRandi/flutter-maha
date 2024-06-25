@@ -10,6 +10,7 @@ A simple Flutter application for managing users, utilizing the BLoC pattern for 
 
 ### Project Structure
 
+```plaintext
 lib
 ├── bloc
 │   └── user
@@ -44,16 +45,13 @@ lib
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/RepoRandi/flutter-maha
 cd flutter-maha
 
 2. Install dependencies:
 
-```bash
 flutter pub get
 
-3. Run the app:
+1. Run the app:
 
-```bash
 flutter run
