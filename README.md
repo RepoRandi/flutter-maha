@@ -8,27 +8,6 @@ A simple Flutter application for managing users, utilizing the BLoC pattern for 
 - Create a new user
 - Display user details
 
-### Project Structure
-
-```plaintext
-lib
-├── bloc
-│   └── user
-│       ├── user_bloc.dart
-│       ├── user_event.dart
-│       └── user_state.dart
-├── data
-│   ├── models
-│   │   └── user_model.dart
-│   └── repositories
-│       └── user_repository.dart
-├── ui
-│   ├── pages
-│   │   ├── create_user_page.dart
-│   │   ├── home_page.dart
-│   │   └── user_detail_page.dart
-└── main.dart
-
 ## API Endpoints
 
 - **GET** /api/users?page=2: Fetches a list of users.
@@ -55,3 +34,26 @@ flutter pub get
 1. Run the app:
 
 flutter run
+
+### Project Structure
+
+```plaintext
+lib
+├── bloc
+│   └── user
+│       ├── user_bloc.dart
+│       ├── user_event.dart
+│       └── user_state.dart
+├── data
+│   ├── models
+│   │   └── user_model.dart
+│   └── repositories
+│       └── user_repository.dart
+├── ui
+│   ├── pages
+│   │   ├── create_user_page.dart
+│   │   ├── home_page.dart
+│   │   └── user_detail_page.dart
+└── main.dart
+
+
