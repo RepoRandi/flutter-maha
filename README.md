@@ -25,6 +25,7 @@ A simple Flutter application for managing users, utilizing the BLoC pattern for 
 1. Clone the repository:
 
 git clone https://github.com/RepoRandi/flutter-maha
+
 cd flutter-maha
 
 2. Install dependencies:
